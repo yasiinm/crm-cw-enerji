@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     %% Power Sources (Circles/Ellipses)
     Gen1((Engine 1 Gen<br>[Sayap Kiri]))
@@ -44,5 +45,6 @@ graph TD
     SDP_Ess --> Sys_Fire
 
     SDP_Util --> Sys_Bleed
+```
     SDP_Util --> Sys_AC
     SDP_Util --> Sys_Strobe
